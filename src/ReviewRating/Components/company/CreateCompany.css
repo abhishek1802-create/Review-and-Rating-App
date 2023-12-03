@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addCompany{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(175, 126, 253), rgb(116, 32, 240));
+}
+.addCompany .box{
+    width: 400px;
+    padding: 40px 60px;
+    border-radius: 8px;
+    background: url(../../assets/Images/Group\ 11665.png);
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    gap: 20px;
+}
+.addCompany .box h2{
+    text-align: center;
+}
+.addCompany .box form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.addCompany .box form label{
+    font-size: 0.8rem;
+    color: gray;
+} 
+.addCompany .box form input{
+    padding: 5px 20px;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+#saveButton{
+    margin: auto;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    width: 60px;
+    background: linear-gradient(180deg, rgb(175, 126, 253), rgb(116, 32, 240));
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.errorFont{
+    color: red;
+}

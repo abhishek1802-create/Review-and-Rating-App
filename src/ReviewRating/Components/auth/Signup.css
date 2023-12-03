@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(180deg, rgb(175, 126, 253), rgb(116, 32, 240));
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container .leftBox{
+    width: 45%;
+    display: flex;
+    padding: 10px 100px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.container .leftBox h1{
+    font-size: 2.5rem;
+    color: white;
+}
+.container .leftBox p{
+    color: white;
+    text-align: center;
+}
+.container .leftBox img{
+    width: 360px;
+    height: 310px;
+}
+.container .rightBox{
+    width: 35%;
+    padding: 40px 10px;
+    background-image: url(../../assets/Images/Group\ 11665.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.container .rightBox form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container .rightBox h1{
+    font-size: 2.5rem;
+    color:  rgb(116, 32, 240);;
+}
+.container .rightBox p{
+    color: grey;
+}
+.container .rightBox input{
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid white;
+    border: 0.3px solid black;
+}
+#signUpButton{
+    margin: auto;
+    cursor: pointer;
+    width: 80px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, rgb(175, 126, 253), rgb(116, 32, 240));
+    color: white;
+    border: 1px solid blue;
+}
+#loginUrl{
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+  

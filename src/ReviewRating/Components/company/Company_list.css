@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+    text-decoration: none !important;
+}
+.company{
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    color: black;
+}
+.keyNote{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.keyNote p{
+    font-size: 0.95rem;
+}
+.companyList{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;padding: 10px 10px;
+    background-color: #f0f0f0;
+    border: 2px solid  #f0f0f0;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.companyList .leftBox{
+    width: 30%;
+}
+#companyImage{
+    width: 200px;
+    height: 130px;
+    border-radius: 8px;
+}
+.companyList .rightBox{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.companyList .rightBox h2{
+    color: rgb(26, 26, 118);
+}
+.companyList .rightBox p{
+    color: red;
+}
+.addButton{
+    margin-left: 700px;
+    padding: 10px 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: orange;
+    border: 1px solid orange;
+    box-shadow: 2px 2px 2px grey;
+}
+.linkDesign{
+    text-decoration: none !important;
+    color:red !important
+}
+#foundedDate{
+    background-color: orange;
+    padding: 5px 5px;
+    color: white;
+    font-weight: bolder;
+    border-start-end-radius: 14px;
+}
